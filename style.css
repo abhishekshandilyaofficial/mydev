@@ -1,0 +1,50 @@
+*{
+    margin-left: 1rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left:2rem;
+    margin-top: -1rem;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: x-large;
+
+}
+nav{
+    width: 60VW;
+    margin-top: 20 px;
+}
+.bigimage{
+    width: 95%;
+    margin-bottom: 4rem;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+.container>div{
+    text-align: center;
+}
+.container>div>p{
+    font-size: x-large;
+    line-height: 1.5 rem;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 4rem;
+}
+
+.foot{
+    padding: 1rem;
+}
+img,li:hover{
+    cursor:pointer;
+    color:red;
+}
